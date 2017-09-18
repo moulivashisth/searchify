@@ -1,7 +1,7 @@
 app.service("MVCService", function ($http) {
    this.getData = function ($scope) {     
        $http({
-           url: "https://affiliate-api.flipkart.net/affiliate/search/json",
+           url: "https://affiliate-api.flipkart.net/affiliate/1.0/search.json",
            method: "GET",
            params : {
             query : "sony"
